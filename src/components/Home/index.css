@@ -1,0 +1,117 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.responsive-container {
+  width: 90%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  background-color: #f1f5f9;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.website-logo {
+  width: 150px;
+}
+
+.dropdown-menu {
+  width: 30%;
+  background-color: transparent;
+  border: solid 1px #cbd5e1;
+  border-radius: 7px;
+  padding: 10px;
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+  margin-top: 30px;
+}
+
+.category-name {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.main-container {
+  height: auto;
+  min-height: 76vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-showcase-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.project-container {
+  box-shadow: 0px 0px 4px 0px #cbd5e1;
+  border-radius: 7px;
+  margin: 10px;
+  list-style: none;
+  width: 23%;
+}
+
+.project-image {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.project-name {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.failure-image {
+  width: 400px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.failure-paragraph {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.retry-button {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: #328af2;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 35px;
+  width: 90px;
+  cursor: pointer;
+}
